@@ -30,8 +30,8 @@ namespace Cards
                 reply.AttachmentLayout = AttachmentLayoutTypes.Carousel;
                 reply.Attachments = new List<Attachment>();
 
-                CardAction _GitHubButton= new CardAction("openUrl","My GitHub Account", null, "https://github.com/sherifElMahdi");
-                CardAction _TwitterButton = new CardAction("openUrl", "My Twitter Account", null, "https://twitter.com/_SherifElMahdi");
+                CardAction _GitHubButton= new CardAction("openUrl","My GitHub Account", null, "https://github.com/sivarajTechM");
+                CardAction _TwitterButton = new CardAction("openUrl", "My Twitter Account", null, "https://twitter.com/sivarajTweets");
                 CardImage _GitHubLogo = new CardImage("https://assets-cdn.github.com/images/modules/logos_page/Octocat.png");
                 CardImage _TwitterLogo = new CardImage("http://3.bp.blogspot.com/-NxouMmz2bOY/T8_ac97cesI/AAAAAAAAGg0/e3vY1_bdnbE/s1600/Twitter+logo+2012.png");
 
